@@ -1,12 +1,12 @@
-# TinyUSB on PSoC5LP
+# TinyUSB on PSOC&trade; 5LP
 
-This project contains a tinyusb library port for Infineon&reg; (formerly Cypress&trade;) PSoC5LP&reg; microcontrollers.
+This project contains a tinyusb library port for Infineon&reg; (formerly Cypress&trade;) PSOC&trade; 5LP microcontrollers.
 We decided to release this internal project to the public in the hope the extended flexibility of TinyUSB over the block implementation could be useful to other developers working on the same platform.
 
 Due to the reconfigurable nature of the microcontroller (especially the interrupt routing mechanism), we were unable to provide a port that could compile within the library, together with proper example code that would fit in the building scheme.
-What's more, the PSoC Creator&trade; IDE does not support cmake and we needed to configure the IDE accordingly.
+What's more, the PSOC&trade; Creator IDE does not support cmake and we needed to configure the IDE accordingly.
 
-Note: Infineon&reg; and PSoC&reg; are registered trademarks of Infineon Corporation AG in United States and other countries.
+Note: Infineon&reg; and PSOC&reg; are registered trademarks of Infineon Corporation AG in United States and other countries.
 
 ## Project structure
 
